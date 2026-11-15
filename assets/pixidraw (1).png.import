@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bv87lcuc88p2r"
-path="res://.godot/imported/pokeball.png-d65253939b3dcb65d9eae33b8a5e7380.ctex"
+uid="uid://c0hr5dnhut0de"
+path="res://.godot/imported/pixidraw (1).png-6cf6a4649fb1ac3cb5bebe6128e72126.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pokeball.png"
-dest_files=["res://.godot/imported/pokeball.png-d65253939b3dcb65d9eae33b8a5e7380.ctex"]
+source_file="res://assets/pixidraw (1).png"
+dest_files=["res://.godot/imported/pixidraw (1).png-6cf6a4649fb1ac3cb5bebe6128e72126.ctex"]
 
 [params]
 

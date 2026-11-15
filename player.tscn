@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://ckudr8chj1kgo"]
+
+[ext_resource type="Texture2D" uid="uid://2soef7ddwf6t" path="res://assets/gigglypuff (2).png" id="1_4flbx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_onrkg"]
+atlas = ExtResource("1_4flbx")
+region = Rect2(0, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i3pqv"]
+atlas = ExtResource("1_4flbx")
+region = Rect2(240, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hqtel"]
+atlas = ExtResource("1_4flbx")
+region = Rect2(480, 0, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sweqy"]
+atlas = ExtResource("1_4flbx")
+region = Rect2(0, 240, 240, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2hs0m"]
+atlas = ExtResource("1_4flbx")
+region = Rect2(240, 240, 240, 240)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8btrx"]
+animations = [{
+"frames": [{
+"duration": 0.9,
+"texture": SubResource("AtlasTexture_onrkg")
+}, {
+"duration": 0.9,
+"texture": SubResource("AtlasTexture_i3pqv")
+}, {
+"duration": 0.9,
+"texture": SubResource("AtlasTexture_hqtel")
+}, {
+"duration": 0.9,
+"texture": SubResource("AtlasTexture_sweqy")
+}, {
+"duration": 0.9,
+"texture": SubResource("AtlasTexture_2hs0m")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Player" type="CharacterBody2D" unique_id=238217246]
+
+[node name="Sprite" type="AnimatedSprite2D" parent="." unique_id=1387559881]
+position = Vector2(58.5, 358.5)
+scale = Vector2(1.3125, 1.1958333)
+sprite_frames = SubResource("SpriteFrames_8btrx")
+frame_progress = 0.46305525
